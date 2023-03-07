@@ -1,0 +1,47 @@
+header {
+    background-color: white;
+    border-bottom: 3px solid whitesmoke;
+    display: flex ;
+    padding: 25px 40px;
+   
+    
+}
+
+header .logo,
+header .social { width: 50% }
+
+#siga-conectado {
+  
+    color:gray;
+    float: right;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+header .social a {
+    float: right;
+    height: 32px;
+    margin-left: 5px;
+    width: 32px;
+}
+
+header .Youtube_button_{
+    background-image: url(../images/social_media_icons/yt.png);
+}
+header .twitter_button_{
+    background-image: url(../images/social_media_icons/twitter.png);
+}
+header .facebook_button_{
+    background-image: url(../images/social_media_icons/facebook.png);
+}
+
+header .Youtube_button_{
+    background-image: url(../images/social_media_icons/youtube-hover.png);
+}
+header .twitter_button_{
+    background-image: url(../images/social_media_icons/twitter-hover.png);
+}
+header .facebook_button_{
+    background-image: url(../images/social_media_icons/facebook-hover.png);
+}
+
