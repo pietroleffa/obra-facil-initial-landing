@@ -8,15 +8,17 @@ header {
 }
 
 header .logo,
-header .social { width: 0% }
+header .social { width: 25% }
 
 #siga-conectado {
   
-    color:gray;
-    float: right;
-    font-size: 14px;
-    margin-top: 5px;
-    display: flex; 
+    color: gray;
+                float: right;
+                font-size: 17px;
+                margin-top: 5px;
+                margin-right: 10px;
+                display: flex;
+                text-align:left;
 }
 
 header.social a {
@@ -77,9 +79,7 @@ header .facebook_button:hover {
     float: right;
 }
 
-#siga-conectados {
-    color: white;
-}
+
 
 footer {
     background: whitesmoke;
@@ -87,4 +87,28 @@ footer {
     text-align: center;
     height: 15px;
     font-size: 14px;
+}
+
+main .content {
+    display: flex;
+  padding: 50px 10%;
+  background: #f5f5f5;
+  justify-content: center;
+}
+
+.form-area {
+background-color: white;
+padding: 15px;
+}
+
+input {
+background-color: #f5f5f5;
+padding: 6px 1px;
+border-radius: 3px;
+border: solid 1px gray;
+box-sizing: border-box;
+height: 48px;
+width: 100%;
+max-width: 100%;
+margin: 10px 0;
 }
