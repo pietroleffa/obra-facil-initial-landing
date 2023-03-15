@@ -16,13 +16,22 @@ h2 {
 .subtitle {
 color: gray;
 font-size: 16px;
+line-height: 150%;
 }
 
 .notes {
     font-size: 12px;
     color: gray;
-    padding: 5px;
+   
 }
+
+.video-area { 
+    margin-right: 10px;
+    max-width: 520px;}
+
+    .video-area iframe {
+        width: 100%;
+    }
 
 form input, form button {
     font-size: 13px;
@@ -30,3 +39,8 @@ form input, form button {
     font-weight: 400px;
 }
 
+form h2 {
+    padding: 30px 20px;
+    margin: 0px;
+
+}
